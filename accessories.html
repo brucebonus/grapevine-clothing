@@ -14,9 +14,9 @@
 
   <body>
     <div class="wrapper">
-        <div class="logo-container">
-            <img class="logo" src="img/logo.png" alt="">
-        </div>
+      <div class="logo-container">
+        <img class="logo" src="img/logo.png" alt="" />
+      </div>
       <!-- Navigation -->
       <nav class="main-nav">
         <ul>
@@ -30,75 +30,44 @@
       </nav>
 
       <!-- Top Container -->
-      <section class="top-container">
-        <header class="showcase">
-          <h1>New Arrivals</h1>
-          <p>
-            Fresh New Products
-          </p>
-          <a href="new-arrivals.html" class="btn">Check It Out</a>
-        </header>
 
-        <div class="top-box top-box-a">
-          <h4>Accessories</h4>
-          <a href="accessories.html" class="btn">Check It Out</a>
-        </div>
-        
-        <div class="top-box top-box-b">
-          <h4>Clothes</h4>
-          <a href="clothes.html" class="btn">Check It Out</a>
-        </div>
-      </section>
 
       <!-- Boxes Section -->
       <section class="boxes">
         <div class="box">
-            <img src="img/sold/ralph_oxford1.jpg" alt="">
-          <h3>Sold</h3>
+          <img src="img\products\supreme_cap1.JPG" alt="" />
+          <h3>Supreme Cap</h3>
           <p>
-            Ralph Lauren Oxford Shirt<br/>
-            £17.00
+            £40.00
           </p>
-        </div>
-        <div class="box">
-            <img src="img/sold/northface_jacket1.jpg" alt="">
-          <h3>Sold</h3>
-          <p>
-            North Face Jacket<br/>
-            £23.50
-          </p>
-        </div>
-        <div class="box">
-            <img src="img/sold/ellesse_jacket1.jpg" alt="">
-          <h3>Sold</h3>
-          <p>
-            Ellesse Pull Over Jacket<br/>
-            £18.00
-          </p>
-        </div>
-        <div class="box">
-            <img src="img/sold/ralph_lauren_polo1.jpg" alt="">
-          <h3>Sold</h3>
-          <p>
-            Polo Ralph Lauren Polo Shirt<br/>
-            £14.00
-          </p>
+          <button id="modalBtn" class="button">View</button>
+          <div id="simpleModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="closeBtn">&times;</span>
+                    <h2>Supreme Red Plaid Camp Cap</h2>
+                </div>
+                <div class="modal-body">
+                  <img src="img\products\supreme_cap1.JPG" alt="">
+                  <img src="img\products\supreme_cap2.JPG" alt="">
+                  <img src="img\products\supreme_cap3.JPG" alt="">
+                  <img src="img\products\supreme_cap4.JPG" alt="">
+              <p>
+                Overall good condition<br/>
+
+                We try to mention as best as we can about any imperfections of our clothes. Any questions please go ahead and ask!. If there are any issues with your item please message first before leaving feedback so we can resolve any problems.
+              </p>
+              <p>£40.00</p>
+              </div>
+              <div class="modal-footer">
+                  <h3>Modal Footer</h3>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
       <!-- Info Section -->
-      <section class="info">
-        <img src="img/about.jpg" alt="" />
-        <div>
-          <h2>About Us</h2>
-          <p>
-            Message for offers!<br/>
-            UK and International Shipping<br/>
-            Dispatch in 1-3 days
-          </p>
-          <a href="about.html" class="btn">Read More</a>
-        </div>
-      </section>
 
       <!-- Portfolio -->
       <section class="portfolio">
@@ -116,6 +85,8 @@
       <footer>
         <p>Grapevine Clothing &copy; 2020</p>
       </footer>
+
+      <script src="main.js"></script>
     </div>
     <!-- Wrapper Ends-->
   </body>
