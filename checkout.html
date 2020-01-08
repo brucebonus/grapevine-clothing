@@ -8,15 +8,16 @@
       src="https://kit.fontawesome.com/06b24e16bb.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="style.css" />
+    <script src="checkout.js" async></script>
+    <link rel="stylesheet" href="style.css"/>
     <title>Grapevine Clothing</title>
   </head>
 
   <body>
     <div class="wrapper">
-        <div class="logo-container">
-            <img class="logo" src="img/logo.png" alt="">
-        </div>
+      <div class="logo-container">
+        <img class="logo" src="img/logo.png" alt="" />
+      </div>
       <!-- Navigation -->
       <nav class="main-nav">
         <ul>
@@ -30,85 +31,110 @@
       </nav>
 
       <!-- Top Container -->
-      <section class="top-container">
-        <header class="showcase">
-          <h1>New Arrivals</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, sit!
-          </p>
-          <a href="#" class="btn">Check It Out</a>
-        </header>
-
-        <div class="top-box top-box-a">
-          <h4>Accessories</h4>
-          <a href="" class="btn">Check It Out</a>
+      <section class="container content-section">
+        <h2 class="section-header">NEW ARRIVALS</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Polo Ralph Lauren Hoodie</span>
+                <img class="shop-item-image" src="img/products/ralph_hoodie1.JPG">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">£15.00</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Fred Perry Track Jacket</span>
+                <img class="shop-item-image" src="img/products/fred_perry1.JPG">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">£28.00</span>
+                    <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Kickers Polo Shirt</span>
+                <img class="shop-item-image" src="img/products/kickers1.JPG">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">£11.00</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Lacoste Grey Polo Shirt</span>
+                <img class="shop-item-image" src="img/products/lacoste_grey_polo1.JPG">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">£5.00</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
         </div>
-        
-        <div class="top-box top-box-b">
-          <h4>Clothes</h4>
-          <a href="" class="btn">Check It Out</a>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">OTHER CLOTHES</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Lacoste White Polo Shirt</span>
+                <img class="shop-item-image" src="img/products/lacoste_white_polo1.JPG">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">£5.00</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Slazenger Dark Grey Polo</span>
+                <img class="shop-item-image" src="img/products/slazenger_dark_grey_polo1.JPG">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">£6.00</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+              <span class="shop-item-title">Vans Sweatshirt</span>
+              <img class="shop-item-image" src="img/products/vans_sweatshirt1.JPG">
+              <div class="shop-item-details">
+                  <span class="shop-item-price">£7.00</span>
+                  <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+              </div>
+          </div>
+          <div class="shop-item">
+            <span class="shop-item-title">Berghaus T-Shirt</span>
+            <img class="shop-item-image" src="img/products/berghaus_t-shirt1.JPG">
+            <div class="shop-item-details">
+                <span class="shop-item-price">£10.00</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
         </div>
-      </section>
+        </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">£0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
 
       <!-- Boxes Section -->
-      <section class="boxes">
-        <div class="box">
-            <img src="https://source.unsplash.com/random" alt="">
-          <h3>Analytics</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores,
-            pariatur?
-          </p>
-        </div>
-        <div class="box">
-            <img src="https://source.unsplash.com/random" alt="">
-          <h3>Marketing</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores,
-            pariatur?
-          </p>
-        </div>
-        <div class="box">
-            <img src="https://source.unsplash.com/random" alt="">
-          <h3>Development</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores,
-            pariatur?
-          </p>
-        </div>
-        <div class="box">
-            <img src="https://source.unsplash.com/random" alt="">
-          <h3>Support</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores,
-            pariatur?
-          </p>
-        </div>
-      </section>
 
       <!-- Info Section -->
-      <section class="info">
-        <img src="https://source.unsplash.com/random/500x500" alt="" />
-        <div>
-          <h2>About Us</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
-            deleniti.
-          </p>
-          <a href="#" class="btn">Read More</a>
-        </div>
-      </section>
 
       <!-- Portfolio -->
       <section class="portfolio">
-        <img src="https://source.unsplash.com/random/200x200" alt="" />
-        <img src="https://source.unsplash.com/random/201x200" alt="" />
-        <img src="https://source.unsplash.com/random/202x200" alt="" />
-        <img src="https://source.unsplash.com/random/203x200" alt="" />
-        <img src="https://source.unsplash.com/random/204x200" alt="" />
-        <img src="https://source.unsplash.com/random/205x200" alt="" />
-        <img src="https://source.unsplash.com/random/206x200" alt="" />
-        <img src="https://source.unsplash.com/random/207x200" alt="" />
+        <img src="img/products/berghaus_t-shirt2.JPG" alt="" />
+        <img src="img/products/fred_perry2.JPG" alt="" />
+        <img src="img/products/lacoste_grey_polo2.JPG" alt="" />
+        <img src="img/products/lacoste_white_polo2.JPG" alt="" />
+        <img src="img/products/slazenger_dark_grey_polo2.JPG" alt="" />
+        <img src="img/products/vans_sweatshirt2.JPG" alt="" />
+        <img src="img/products/ralph_lauren_oxford2.JPG" alt="" />
+        <img src="img/products/zara_polo2.JPG" alt="" />
       </section>
 
       <!-- Footer -->
