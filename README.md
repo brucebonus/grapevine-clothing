@@ -18,7 +18,7 @@ These images show my website on different browsers and operating systems using b
 ![chrome_macOS](img\testing\website_on_chrome_macOS.png)<br />
 
 ## Website In Different Viewports
-These images show the website in mobile, tablet and laptop/desktop viewports<br />
+These images show the website in mobile, tablet and laptop/desktop viewports using chrome inspect<br />
 ![mobile/iphone6/7/8](img\testing\viewport_iphone678.png)<br />
 ![ipad/tablet](img\testing\ipad.png)<br />
 ![laptop/desktop](img\testing\laptop1440x905.png)<br />
