@@ -174,7 +174,7 @@ div.logo-container {
 }
 
 .modal-footer {
-  background: coral;
+  background: var(--dark);
   padding: 10px;
   color: #fff;
   text-align: center;
