@@ -6,3 +6,4 @@ https://github.com/brucebonus/grapevine-clothing
 
 ## Testing
 This image shows the technical testing ![technical_test](img\technical_test.png)
+This image shows the user testing ![user_test](img\testing\user_test.png)
