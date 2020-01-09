@@ -31,6 +31,7 @@ function outsideClick(e){
     }
 }
 
+// Testing how to make every modal work on one script
 /*var modalBtn = document.querySelectorAll ('.modal-open');
 
 modalBtn.forEach(function(btn){
